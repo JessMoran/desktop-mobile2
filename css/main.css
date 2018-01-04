@@ -1,0 +1,12 @@
+[class*="column-"]{
+  font-size: 100px;
+  color: white;
+  margin: 9px;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+column-8,column-4{
+  height: 400px;
+}

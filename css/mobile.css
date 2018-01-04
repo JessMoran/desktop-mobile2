@@ -1,0 +1,10 @@
+@media (max-width: 768px){
+    .column-8,
+    .column-4{
+      width: calc(100% - 20px);
+    }
+
+    .column-4{
+      height: 150px;
+    }
+}
