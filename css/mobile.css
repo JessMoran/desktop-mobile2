@@ -1,10 +1,10 @@
 @media (max-width: 768px){
-    .column-8,
-    .column-4{
+    .column-8{
       width: calc(100% - 20px);
     }
 
-    .column-4{
+    #alto.column-4-mobile{
+      width: calc(100% - 20px);
       height: 150px;
     }
 }

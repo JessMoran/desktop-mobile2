@@ -29,37 +29,50 @@ body{
   margin: 10px;
 }
 
+#special-box{
+  background: #fff;
+}
+
+#row-b{
+  background: #ef47c0;
+}
+
 .column-1{
   background: #fce705;
-  width:6.66%
+    width: calc(8.33%  -  20px);
 }
 
 .column-2{
   background: #bcf904;
-  width:14.99%
+  width: calc(16.66%  -  20px);
 }
 
 .column-3{
   background: #6fe8c7;
-  width: 23.33%
+  width: calc(25%  -  20px);
 }
 
 .column-4{
   background: #48b5c3;
-  width: 31.66%
+  width: calc(33.33% -  20px);
 }
 
 .column-5{
-  background: #9d63e2;
-  width: 48.33%
+  background: #48b5c3;
+  width: calc(41.66%  -  20px);
 }
 
 .column-6{
-  background: #ef47c0;
-  width: 98.33%
+  background: #9d63e2;
+  width: calc(50%  -  20px);
 }
 
 .column-8{
   background: #ffae00;
-  width: 64.99%;
+  width: calc(66.66%  -  20px);
+}
+
+.column-12{
+  background: #ef47c0;
+  width: calc(100%  -  20px);
 }
